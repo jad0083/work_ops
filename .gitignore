@@ -32,3 +32,6 @@ __pycache__/
 .secrets/
 *.key
 *.pem
+
+# Screenshots — kept locally only, not pushed
+screenshots/
