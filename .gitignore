@@ -35,3 +35,6 @@ __pycache__/
 
 # Screenshots — kept locally only, not pushed
 screenshots/
+
+# Local-only workspaces (not for public repo)
+local_ops/
