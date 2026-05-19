@@ -1,0 +1,34 @@
+# Terraform
+.terraform/
+.terraform.tfstate.lock.info
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# tfvars often contain secrets — keep .example variants tracked
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python / ad-hoc tooling
+__pycache__/
+*.pyc
+.venv/
+
+# Local-only sensitive notes
+.secrets/
+*.key
+*.pem
