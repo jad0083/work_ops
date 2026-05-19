@@ -38,3 +38,7 @@ screenshots/
 
 # Local-only workspaces (not for public repo)
 local_ops/
+
+# Project work-tracking docs — kept locally only
+/plan.md
+/issues.md
